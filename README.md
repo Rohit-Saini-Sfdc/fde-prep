@@ -4,23 +4,46 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A curated repository of production-ready, reusable **Google Colab notebooks**, **data engineering utilities**, and **async API templates** designed for Forward Deployed Engineer (FDE) technical preparation and interview coding practice.
+A curated repository of production-ready, reusable **Google Colab notebooks**, **weekly course assignments**, **data engineering utilities**, and **GenAI agent templates** designed for Forward Deployed Engineer (FDE) technical preparation and interview coding practice.
 
 ---
 
 ## 🚀 Interactive Google Colab Notebooks
 
-Click any badge below to immediately launch and execute the notebook in Google Colab:
+Click any badge below to launch and execute notebooks directly in Google Colab:
 
-| # | Notebook | Description | Open in Colab |
+### 📚 Weekly Assignments (`notebooks/assignments/`)
+
+| Week | Notebook | Description | Open in Colab |
 |---|---|---|---|
-| 01 | **Async API Ingestion & Concurrency** | Concurrency limits (`Semaphore`), retries, `httpx`, `nest_asyncio` in Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/01_async_api_ingestion.ipynb) |
-| 02 | **Data Validation & Pydantic v2** | Runtime data validation, nested payload flattening, custom type validators | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/02_data_validation_pydantic.ipynb) |
-| 03 | **PySpark & Pandas ETL Pipeline** | Local PySpark setup in Colab, aggregations, joins, window functions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/03_etl_pandas_pyspark.ipynb) |
-| 04 | **High-Performance DuckDB SQL** | Execute SQL directly on Pandas DataFrames, CSV, & Parquet in Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/04_duckdb_sql_helpers.ipynb) |
-| 05 | **Google Drive & Secrets API** | Google Drive mounting, API secrets management via `google.colab.userdata` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/05_colab_drive_and_secrets.ipynb) |
-| 06 | **Calling LLMs Programmatically** | LLM API integration, prompt orchestration, and structured generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/Calling_LLMs_programmatically.ipynb) |
-| 07 | **CRM Lead Qualifier Agent** | AI agent workflow for automated CRM lead scoring, enrichment, & qualification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/crm_lead_qualifier_agent.ipynb) |
+| **Week 0** | **Hello World Week 0** | Week 0 introductory assignment notebook | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/assignments/week_0/Hello_World_Week_0_Rohit_Saini.ipynb) |
+| **Week 0** | **Hello World Week 0 (Ver 2)** | Week 0 assignment notebook (Version 2) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/assignments/week_0/Hello_World_Week_0_Rohit_Saini_ipynb_Ver_2.ipynb) |
+
+---
+
+### 🤖 Generative AI & LLM Agents (`notebooks/genai_and_llms/`)
+
+| Notebook | Description | Open in Colab |
+|---|---|---|
+| **Calling LLMs Programmatically** | LLM API integration, prompt orchestration, and structured generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/genai_and_llms/Calling_LLMs_programmatically.ipynb) |
+| **CRM Lead Qualifier Agent** | AI agent workflow for automated CRM lead scoring, enrichment, & qualification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/genai_and_llms/crm_lead_qualifier_agent.ipynb) |
+| **Gemini Integration** | Google Gemini API integration and response handling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/genai_and_llms/Gemini.ipynb) |
+| **OpenAI Integration** | OpenAI API integration, chat completions, & structured output | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/genai_and_llms/OpenAi.ipynb) |
+| **Streamlit UI App** | Interactive Streamlit prototyping for AI applications | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/genai_and_llms/Streamlit.ipynb) |
+
+---
+
+### 🛠️ Core Utilities & Data Engineering (`notebooks/core_utilities/`)
+
+| Notebook | Description | Open in Colab |
+|---|---|---|
+| **01. Async API Ingestion** | Concurrency limits (`Semaphore`), retries, `httpx`, `nest_asyncio` in Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/core_utilities/01_async_api_ingestion.ipynb) |
+| **02. Data Validation (Pydantic)** | Runtime data validation, nested payload flattening, custom type validators | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/core_utilities/02_data_validation_pydantic.ipynb) |
+| **03. PySpark & Pandas ETL** | Local PySpark setup in Colab, aggregations, joins, window functions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/core_utilities/03_etl_pandas_pyspark.ipynb) |
+| **04. High-Performance DuckDB** | Execute SQL directly on Pandas DataFrames, CSV, & Parquet in Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/core_utilities/04_duckdb_sql_helpers.ipynb) |
+| **05. Google Drive & Secrets** | Google Drive mounting, API secrets management via `google.colab.userdata` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/core_utilities/05_colab_drive_and_secrets.ipynb) |
+| **Read Files from Drive** | Reading and processing files mounted from Google Drive | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/core_utilities/Read_files_from_Drive.ipynb) |
+| **Python Basics for GenAI** | Core Python techniques & foundational data processing for GenAI | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/core_utilities/python_basics_for_Gen_Ai_IK.ipynb) |
 
 ---
 
@@ -32,13 +55,24 @@ fde-prep/
 ├── requirements.txt                    # Python dependencies
 ├── .gitignore                          # Standard Python & Jupyter ignore rules
 ├── notebooks/
-│   ├── 01_async_api_ingestion.ipynb     # Async fetching & rate limiting
-│   ├── 02_data_validation_pydantic.ipynb# Pydantic schema enforcement
-│   ├── 03_etl_pandas_pyspark.ipynb      # PySpark ETL transformations
-│   ├── 04_duckdb_sql_helpers.ipynb      # Embedded SQL execution with DuckDB
-│   ├── 05_colab_drive_and_secrets.ipynb # Secrets management & Drive mounting
-│   ├── Calling_LLMs_programmatically.ipynb # LLM API calls and prompt orchestration
-│   └── crm_lead_qualifier_agent.ipynb  # CRM lead qualification AI agent workflow
+│   ├── assignments/
+│   │   └── week_0/                     # Weekly course assignments (Week 0, 1, 2...)
+│   │       ├── Hello_World_Week_0_Rohit_Saini.ipynb
+│   │       └── Hello_World_Week_0_Rohit_Saini_ipynb_Ver_2.ipynb
+│   ├── core_utilities/                 # Reusable data engineering & Colab helpers
+│   │   ├── 01_async_api_ingestion.ipynb
+│   │   ├── 02_data_validation_pydantic.ipynb
+│   │   ├── 03_etl_pandas_pyspark.ipynb
+│   │   ├── 04_duckdb_sql_helpers.ipynb
+│   │   ├── 05_colab_drive_and_secrets.ipynb
+│   │   ├── Read_files_from_Drive.ipynb
+│   │   └── python_basics_for_Gen_Ai_IK.ipynb
+│   └── genai_and_llms/                 # GenAI, LLM APIs, and AI agent workflows
+│       ├── Calling_LLMs_programmatically.ipynb
+│       ├── Gemini.ipynb
+│       ├── OpenAi.ipynb
+│       ├── Streamlit.ipynb
+│       └── crm_lead_qualifier_agent.ipynb
 └── src/
     ├── __init__.py
     ├── async_client.py                 # Reusable async API client class
