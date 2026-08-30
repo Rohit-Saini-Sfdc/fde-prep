@@ -1,0 +1,10 @@
+# Reusable Google Colab & FDE Preparation Dependencies
+httpx>=0.27.0
+pydantic>=2.7.0
+email-validator>=2.1.0
+pandas>=2.2.0
+duckdb>=0.10.0
+pyspark>=3.5.0
+nest-asyncio>=1.6.0
+requests>=2.31.0
+tqdm>=4.66.0
