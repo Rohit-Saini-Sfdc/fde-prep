@@ -20,6 +20,7 @@ Click any badge below to immediately launch and execute the notebook in Google C
 | 04 | **High-Performance DuckDB SQL** | Execute SQL directly on Pandas DataFrames, CSV, & Parquet in Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/04_duckdb_sql_helpers.ipynb) |
 | 05 | **Google Drive & Secrets API** | Google Drive mounting, API secrets management via `google.colab.userdata` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/05_colab_drive_and_secrets.ipynb) |
 | 06 | **Calling LLMs Programmatically** | LLM API integration, prompt orchestration, and structured generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/Calling_LLMs_programmatically.ipynb) |
+| 07 | **CRM Lead Qualifier Agent** | AI agent workflow for automated CRM lead scoring, enrichment, & qualification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/crm_lead_qualifier_agent.ipynb) |
 
 ---
 
@@ -36,7 +37,8 @@ fde-prep/
 │   ├── 03_etl_pandas_pyspark.ipynb      # PySpark ETL transformations
 │   ├── 04_duckdb_sql_helpers.ipynb      # Embedded SQL execution with DuckDB
 │   ├── 05_colab_drive_and_secrets.ipynb # Secrets management & Drive mounting
-│   └── Calling_LLMs_programmatically.ipynb # LLM API calls and prompt orchestration
+│   ├── Calling_LLMs_programmatically.ipynb # LLM API calls and prompt orchestration
+│   └── crm_lead_qualifier_agent.ipynb  # CRM lead qualification AI agent workflow
 └── src/
     ├── __init__.py
     ├── async_client.py                 # Reusable async API client class
