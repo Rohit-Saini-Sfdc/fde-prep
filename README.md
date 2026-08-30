@@ -19,6 +19,7 @@ Click any badge below to immediately launch and execute the notebook in Google C
 | 03 | **PySpark & Pandas ETL Pipeline** | Local PySpark setup in Colab, aggregations, joins, window functions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/03_etl_pandas_pyspark.ipynb) |
 | 04 | **High-Performance DuckDB SQL** | Execute SQL directly on Pandas DataFrames, CSV, & Parquet in Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/04_duckdb_sql_helpers.ipynb) |
 | 05 | **Google Drive & Secrets API** | Google Drive mounting, API secrets management via `google.colab.userdata` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/05_colab_drive_and_secrets.ipynb) |
+| 06 | **Calling LLMs Programmatically** | LLM API integration, prompt orchestration, and structured generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/Calling_LLMs_programmatically.ipynb) |
 
 ---
 
@@ -34,7 +35,8 @@ fde-prep/
 │   ├── 02_data_validation_pydantic.ipynb# Pydantic schema enforcement
 │   ├── 03_etl_pandas_pyspark.ipynb      # PySpark ETL transformations
 │   ├── 04_duckdb_sql_helpers.ipynb      # Embedded SQL execution with DuckDB
-│   └── 05_colab_drive_and_secrets.ipynb # Secrets management & Drive mounting
+│   ├── 05_colab_drive_and_secrets.ipynb # Secrets management & Drive mounting
+│   └── Calling_LLMs_programmatically.ipynb # LLM API calls and prompt orchestration
 └── src/
     ├── __init__.py
     ├── async_client.py                 # Reusable async API client class
