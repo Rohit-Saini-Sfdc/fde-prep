@@ -18,6 +18,7 @@ Click any badge below to launch and execute notebooks directly in Google Colab:
 |---|---|---|---|
 | **Week 0** | **Hello World Week 0** | Week 0 introductory assignment notebook | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/assignments/week_0/Hello_World_Week_0_Rohit_Saini.ipynb) |
 | **Week 0** | **Hello World Week 0 (Ver 2)** | Week 0 assignment notebook (Version 2) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/assignments/week_0/Hello_World_Week_0_Rohit_Saini_ipynb_Ver_2.ipynb) |
+| **Week 1** | **IT Monitoring Agent** | Week 1 assignment: Automated IT infrastructure monitoring & log analysis agent | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rohit-Saini-Sfdc/fde-prep/blob/main/notebooks/assignments/week_1/Week1_IT_Monitoring_Agent_Assignment.ipynb) |
 
 ---
 
@@ -56,9 +57,11 @@ fde-prep/
 ├── .gitignore                          # Standard Python & Jupyter ignore rules
 ├── notebooks/
 │   ├── assignments/
-│   │   └── week_0/                     # Weekly course assignments (Week 0, 1, 2...)
-│   │       ├── Hello_World_Week_0_Rohit_Saini.ipynb
-│   │       └── Hello_World_Week_0_Rohit_Saini_ipynb_Ver_2.ipynb
+│   │   ├── week_0/                     # Weekly course assignments
+│   │   │   ├── Hello_World_Week_0_Rohit_Saini.ipynb
+│   │   │   └── Hello_World_Week_0_Rohit_Saini_ipynb_Ver_2.ipynb
+│   │   └── week_1/
+│   │       └── Week1_IT_Monitoring_Agent_Assignment.ipynb
 │   ├── core_utilities/                 # Reusable data engineering & Colab helpers
 │   │   ├── 01_async_api_ingestion.ipynb
 │   │   ├── 02_data_validation_pydantic.ipynb
